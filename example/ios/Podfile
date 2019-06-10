@@ -21,7 +21,7 @@ target 'example' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'react-native-baidu-map', :podspec => '../node_modules/react-native-baidumap-s/ios/react-native-baidumap-s.podspec'
+  pod 'react-native-baidu-map-s', :podspec => '../node_modules/react-native-baidumap-s/ios/react-native-baidumap-s.podspec'
 
   target 'example-tvOSTests' do
     inherit! :search_paths
